@@ -7,4 +7,4 @@
    Train a CompleX model with  shallow embeddings wikikg90m-v2/run_CompleX.sh
   Train a GNN based architecture with GAT as encoder and TransE as decoder  GNN_AE/run.sh
 4. Ensemble the predictions from above models. 
-9.05* GNN_AE + 0.85* TransE + 0.15* CompleX
+0.05* GNN_AE + 0.85* TransE + 0.15* CompleX
