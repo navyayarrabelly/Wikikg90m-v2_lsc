@@ -5,6 +5,6 @@
 3. We train 3 seperate models to train the tail node prediction problem for a given KG. 
    Train a TransE model with  shallow embeddings wikikg90m-v2/run_TransE.sh
    Train a CompleX model with  shallow embeddings wikikg90m-v2/run_CompleX.sh
-  Train a GNN based architecture with GAT as encoder and TransE as decoder 
+  Train a GNN based architecture with GAT as encoder and TransE as decoder  GNN_AE/run.sh
 4. Ensemble the predictions from above models. 
 9.05* GNN_AE + 0.85* TransE + 0.15* CompleX
